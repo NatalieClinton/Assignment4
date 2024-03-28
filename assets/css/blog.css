@@ -1,29 +1,11 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-  }
-  
-  header {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-
+/* Link styling */
   a {
     display: block;
     margin-bottom: 10px;
     text-align: center;
   }
   
-  /* Blog Post Styling */
+  /* Blog post styling */
   #postList {
     margin-bottom: 20px;
   }
