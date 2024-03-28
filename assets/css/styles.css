@@ -1,21 +1,37 @@
 /* Body styling and background */
 body {
-  font-family: Arial, sans-serif;
+  font-family: sans-serif;
+  color: black;
   margin: 0;
   padding: 0;
 }
 
+h1 {
+  color: black;
+  font-family: "Montserrat";
+  font-style: normal ;
+  font-size: 64px;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h5 {
+color: black;
+}
+
+
 .body-background {
   background-image: url('https://i.stack.imgur.com/m57ZV.gif');
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
 }
   
 /* Header styling */
 header {
-  background-color: #333;
-  color: white;
+  background-color: #e2dede;
+  color: #444;
+  border-bottom: solid;
   text-align: center;
   padding: 10px;
 }
@@ -25,6 +41,14 @@ main {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+}
+
+/* Link styling */
+a {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 /* Button styling */
@@ -46,13 +70,75 @@ label {
   margin-right: 0.5rem;
 }
 
+footer {
+  background-color: #e2dede;
+  color: #444;
+  border-top: solid;
+  text-align: center;
+  padding: 10px;
+  margin-top:10px;
+}
 
+ul {
+  list-style-type: none;
+  display: flex; 
+  justify-content:center; 
+}
+  
+ul li a {
+  color: var(--blue);
+  font-size: 100%;
+  margin-right: 40px;
+}
+
+/* Dark Mode Toggle Switch */
+.toggle-switch {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: inline-block;
+  z-index: 1000; 
+}
+
+
+.toggle-switch input {
+  display: none;
+}
+
+.toggle-switch label {
+  position: relative;
+}
+
+.toggle-switch .toggle-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.toggle-switch .off-image {
+  display: none;
+}
+
+.toggle-switch input:checked + label .off-image {
+  display: inline-block;
+}
+
+.toggle-switch input:not(:checked) + label .on-image {
+  display: inline-block;
+}
+
+.toggle-switch input:not(:checked) + label .off-image {
+  display: none;
+}
 
 /* Toggle Switch for Dark Mode */
-.toggle-container {
+/* .toggle-container {
   text-align: center;
   margin-bottom: 1rem;
-}
+} */
 
 body.dark-mode {
   background-image: url('https://64.media.tumblr.com/6f369655a7cea9a8ebd891e7eb973539/5d5168d20a5b4ed7-ee/s400x600/ee288da75907d8540d8d2e9526af416abe621d1a.gif');
