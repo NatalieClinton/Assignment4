@@ -30,15 +30,15 @@ main {
 /* Button styling */
 button {
   padding: 0.5rem 1rem;
-  background-color: #333;
-  color: white;
+  background-color: #adacac;
   border: none;
   border-radius: 3px;
   cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 button:hover {
-  background-color: #555;
+  background-color: #ccc;
 }
 
 /* Styling for labels */
@@ -63,12 +63,11 @@ body.dark-mode {
 }
 
 body.dark-mode .form {
-  background-color: #333;
+  background-color: #333333bb;
   color: #fff;
 }
   
 body.dark-mode .form label {
-  background-color: #333;
   color: #fff;
 }
   
@@ -83,6 +82,11 @@ body.dark-mode .form textarea {
 }
 
 body.dark-mode .form button {
-  background-color: #444;
+  background-color: #333;
   color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .form button:hover {
+  background-color: #555;
 }
