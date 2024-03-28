@@ -1,4 +1,4 @@
-# My Personal Blog
+# The Digital Digest - My Personal Blog
 
 ## Description
 
