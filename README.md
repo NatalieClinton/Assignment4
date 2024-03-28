@@ -11,6 +11,11 @@ The GIF below is what they'd like my blog to look like.
 
 ![GIF of the Exmaple Blog](./assets/images/100-web-apis-challenge-demo.gif)
 
+## Blog Preview
+
+The photos below is a sneak peek of the deployed application.
+
+*ADD PHOTOS OF DEPLOYED APP*
 
 ## The Creation
 
@@ -19,6 +24,6 @@ I created this repository which includes all the neccesary files, such as HTML, 
 
 ## Links
 
-[GitHub Repository](https://github.com/NatalieClinton/Assignment4)
+[GitHub Repository](https://github.com/NatalieClinton/The-Digital-Digest-Blog)
 
-[Deployed Application](https://natalieclinton.github.io/Assignment4/)
+[Deployed Application](https://natalieclinton.github.io/The-Digital-Digest-Blog/)
