@@ -16,13 +16,18 @@ body {
     margin: 0 auto;
     padding: 20px;
   }
-  
-  #postList {
-    margin-bottom: 20px;
-  }
-  
+
   a {
     display: block;
     margin-bottom: 10px;
     text-align: center;
+  }
+  
+  /* Blog Post Styling */
+  #postList {
+    margin-bottom: 20px;
+  }
+  
+  .post-with-border {
+    border-bottom: 1px solid #ccc;
   }

@@ -1,46 +1,57 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-  }
-  
-  header {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  form {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  textarea {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    padding: 5px 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
+  font-family: "EB Garamond", sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+}
+
+header {
+  font-family: "EB Garamond", serif;
+  font-weight: bolder;
+  font-style: italic;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Form Styling */
+.form {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Button Styles */
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

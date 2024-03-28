@@ -1,4 +1,4 @@
-# Assignment4 - Personal Blog
+# My Personal Blog
 
 ## Description
 
