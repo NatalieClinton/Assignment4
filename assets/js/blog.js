@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
   // Retrieve posts from localStorage or initialize an empty array
   let posts = JSON.parse(localStorage.getItem('posts')) || [];
 
+  // Reverses the posts array to display the newest post on top
+  posts.reverse();
+
   // Creates an HTML element for each post
   posts.forEach(function(post) {
     const postElement = document.createElement('div');

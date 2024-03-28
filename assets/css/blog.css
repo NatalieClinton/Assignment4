@@ -1,13 +1,17 @@
 /* Link styling */
   a {
     display: block;
+    margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
   }
   
   /* Blog post styling */
   #postList {
+    margin-top: 20px;
     margin-bottom: 20px;
+    background-color: #9c98989f;
+    border: 1px solid #ccc;
   }
   
   .post-with-border {
