@@ -25,6 +25,7 @@ color: black;
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 100vh;
 }
   
 /* Header styling */
@@ -65,18 +66,39 @@ button:hover {
   background-color: #ccc;
 }
 
-/* Styling for labels */
+/* Back button styling */
+  a.back-button {
+  position: absolute;
+  top: 20px;
+  right: 70px; 
+  display: inline-block;
+  padding: 30px 30px;
+  background-image: url('https://em-content.zobj.net/source/apple/96/back-with-leftwards-arrow-above_1f519.png');
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
+}
+
+a.back-button:hover {
+  background-image: url('https://em-content.zobj.net/source/apple/114/back-with-leftwards-arrow-above_1f519.png');
+}
+
+/* Label styling */
 label {
   margin-right: 0.5rem;
 }
 
+/* Footer styling */
 footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: #e2dede;
   color: #444;
   border-top: solid;
   text-align: center;
   padding: 10px;
-  margin-top:10px;
 }
 
 ul {
@@ -86,7 +108,7 @@ ul {
 }
   
 ul li a {
-  color: var(--blue);
+  color: black;
   font-size: 100%;
   margin-right: 40px;
 }
@@ -133,12 +155,6 @@ ul li a {
 .toggle-switch input:not(:checked) + label .off-image {
   display: none;
 }
-
-/* Toggle Switch for Dark Mode */
-/* .toggle-container {
-  text-align: center;
-  margin-bottom: 1rem;
-} */
 
 body.dark-mode {
   background-image: url('https://64.media.tumblr.com/6f369655a7cea9a8ebd891e7eb973539/5d5168d20a5b4ed7-ee/s400x600/ee288da75907d8540d8d2e9526af416abe621d1a.gif');
