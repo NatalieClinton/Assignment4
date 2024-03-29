@@ -15,7 +15,9 @@ The GIF below is what they'd like my blog to look like.
 
 The photos below is a sneak peek of the deployed application.
 
-*ADD PHOTOS OF DEPLOYED APP*
+![Photo of the Light Mode Preview](./assets/images/Light%20Mode%20Preview.png)
+
+![Photo of the Dark Mode Preview](./assets/images/Dark%20Mode%20Preview.png)
 
 ## The Creation
 
