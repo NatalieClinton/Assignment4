@@ -5,12 +5,6 @@
 As a marketing student, I created a personal blog to showcase my thoughts and experiences.
 
 
-## Demo
-
-The GIF below is what they'd like my blog to look like.
-
-![GIF of the Exmaple Blog](./assets/images/100-web-apis-challenge-demo.gif)
-
 ## Blog Preview
 
 The photos below is a sneak peek of the deployed application.
